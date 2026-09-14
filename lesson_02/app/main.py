@@ -1,4 +1,5 @@
 from .utils import formatter
+from .utils import printer
 
 EXPENSES = [
     {"day": 1, "category": "еда", "amount": 540},
@@ -14,7 +15,7 @@ EXPENSES = [
 ]
 
 def main():
-    print(formatter.format_report(EXPENSES))
+    printer.pretty_print_report(formatter.format_report(EXPENSES))
 
 
 if __name__ == "__main__":
