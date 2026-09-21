@@ -1,5 +1,26 @@
-# Начало общего проекта
+# Порядок запуска
 
-Python 3.10+. Переименуйте распакованную папку в student-tools. Откройте её в VS Code.
-Создайте .venv по главе 2.1. После активации выполните `python main.py`.
-Ожидается: Средний результат: 4.40. Далее продолжайте этот же проект по книге.
+## 1. Создать venv
+
+Для Windows 
+
+`py -m venv .venv`
+
+## 2. Активировать venv
+
+Для Windows 
+
+`.\.venv\Scripts\activate`
+
+
+## 3. Установить зависимости
+
+`pip install -r requirements.txt`
+
+## 4. Запуск 
+
+`python app/main.py`
+
+## 5. Запуск тестов
+
+`python -m pytest tests`
