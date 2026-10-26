@@ -1,3 +1,6 @@
+"""Модуль работы с заказми."""
+
+
 from pathlib import Path
 
 from app.domain.order import Order
@@ -5,6 +8,14 @@ from app.services.importer import read_rows
 
 
 def load_orders(path: Path) -> list[Order]:
+    """Считывает список заказов из csv файла.
+    
+    Args:
+        path: путь к файлу
+    
+    Returns:
+        Список заказов
+    """
     return [
         Order(waiter=row["waiter"], kopeks=int(row["kopeks"]))
         for row in read_rows(path)
@@ -38,4 +49,12 @@ def revenue_by_waiter(orders: list[Order], top: int = 0) -> dict[str, int]:
 
 
 def sort_orders_in_place(orders: list[Order]) -> None:
+    """Сортировка заказов прямо внутри списка.
+    
+    Args:
+        orders: список заказов
+    
+    Returns:
+        None
+    """
     orders.sort(key=lambda order: -order.kopeks)
