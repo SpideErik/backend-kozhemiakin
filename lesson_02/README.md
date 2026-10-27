@@ -1,26 +1,13 @@
-# Порядок запуска
+# Занятие 2 · окружение, модули и пакеты
 
-## 1. Создать venv
+Работа по теме 2 «Структура проекта»: своё окружение `.venv`, одна библиотека
+из PyPI и первый модуль.
 
-Для Windows 
+Книга темы:
+https://algorthimization-course-vvodnoe.vercel.app/mdk0101-razrabotka-modulei/lessons/02-struktura-python-proekta/index.html
 
-`py -m venv .venv`
+## Отчет о моей работе дома
 
-## 2. Активировать venv
+Делал еще до япоявления шаблонов.
 
-Для Windows 
-
-`.\.venv\Scripts\activate`
-
-
-## 3. Установить зависимости
-
-`pip install -r requirements.txt`
-
-## 4. Запуск 
-
-`python app/main.py`
-
-## 5. Запуск тестов
-
-`python -m pytest tests`
+[homework_02.md](homework_02.md)
