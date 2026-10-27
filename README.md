@@ -17,7 +17,7 @@
 | Тема | Ветка |
 | --- | --- |
 | [Разбор сервиса и установка окружения](lesson_01/homework_01.md) | hw-01 |
-| [Своё окружение и первый модуль](lesson_02/homework_02.md) | lesson-02 |
+| [Своё окружение и первый модуль](lesson_02/homework_02.md) | lesson-02, hw-unknonw |
 | [Практикум по структуре проекта](lesson_03/README.md) | practice-01 |
 | [Рецензия практикума «Младший разработчик: первая неделя»](lesson_04/podpisi_Кожемякин_Эрик.md) | hw-04 |
 | [Проверка типов: Pylance и mypy](lesson_05/otchet_python.md) | hw-05 |
